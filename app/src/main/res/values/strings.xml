@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Test</string>
+    <string name="title_home">首页</string>
+    <string name="title_myorder">订单</string>
+    <string name="title_mydata">我的</string>
+    <string name="sentbutton">我要逍</string>
+    <string name="buybutton">我要买</string>
+    <string name="textview_input" />
+    <string name="buytextview_hint">想买点什么......</string>
+    <string name="orderbutton">去下单</string>
+    <string name="app_icon">app_icon</string>
+    <string name="textview_sogan">逍遥游有限公司</string>
+    <string name="user_login_icon">user_login_icon</string>
+    <string name="click_login_button">登陆</string>
+</resources>

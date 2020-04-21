@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.example.test.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_myorder"
+        android:name="com.example.test.ui.dashboard.MyorderFragment"
+        android:label="订单"
+        tools:layout="@layout/fragment_myorder" />
+
+    <fragment
+        android:id="@+id/navigation_mydata"
+        android:name="com.example.test.ui.notifications.MydataFragment"
+        android:label="我的"
+        tools:layout="@layout/fragment_mydata" >
+        <action
+            android:id="@+id/action_navigation_mydata_to_loginFragment"
+            app:destination="@id/loginFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.test.loginFragment"
+        android:label="login_fragment"
+        tools:layout="@layout/login_fragment" />
+</navigation>
